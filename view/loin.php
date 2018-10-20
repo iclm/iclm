@@ -104,12 +104,12 @@ a:hover{
 }
 
 body {
-  /* background: #9CECFB; */
-  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); */
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fa9b9b;
+    fallback for old browsers
+   background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  Chrome 10-25, Safari 5.1-6
+  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+   W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
 }
 
 .card-signin {
@@ -242,9 +242,10 @@ div.overlay {
     </style>
   </head>
   <body>
-    <div class="videoContainer overlay">
+    <!-- ปิดวีดีโอ-->
+  <!--  <div class="videoContainer overlay">
         <iframe class="videoContainer__video" width="100%" height="" src="https://www.youtube.com/embed/WxjY1NrsSZc?mute=0&enablejsapi=1&controls=0&fs=0&loop=1&rel=0&showinfo=0&disablekb=1s&autoplay=1&playlist=WxjY1NrsSZc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
+    </div>-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
@@ -256,8 +257,8 @@ div.overlay {
                         <div class="col-sm-12 mx-auto">
                           <div class="card card-signin my-5">
                             <div class="card-body">
-                              <h5 class="card-title text-center">Sign In</h5>
-                              <form class="form-signin" opacity:0; >
+                              <h5 class="card-title text-center">เข้าสู่ระบบ</h5>
+                              <form class="form-signin"  >
                                 <div class="form-label-group">
                                   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                                   <label for="inputEmail">Username</label>
@@ -270,10 +271,10 @@ div.overlay {
 
                                 <div class="custom-control custom-checkbox mb-3">
                                   <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                  <label class="custom-control-label" for="customCheck1">Remember password</label>
+                                  <label class="custom-control-label" for="customCheck1">ลืมรหัสผ่าน</label>
                                 </div>
-                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
-                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">เข้าสู่ระบบ</button>
+                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">สมัครสมาชิก</button>
                                 <hr class="my-4">
                               </form>
                             </div>
